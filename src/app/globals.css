@@ -1,1 +1,41 @@
 @import "tailwindcss";
+
+:root {
+  --brown-50: hsl(42, 63%, 97%);
+  --brown-100: hsl(38, 76%, 94%);
+  --brown-200: hsl(37, 80%, 84%);
+  --brown-300: hsl(37, 76%, 71%);
+  --brown-400: hsl(37, 59%, 56%);
+  --brown-500: hsl(37, 67%, 42%);
+  --brown-600: hsl(36, 64%, 31%);
+  --brown-700: hsl(34, 61%, 18%);
+  --brown-800: hsl(33, 63%, 12%);
+  --brown-900: hsl(32, 59%, 9%);
+  --brown-950: hsl(32, 54%, 7%);
+}
+
+@theme inline {
+  --color-brown-50: var(--brown-50);
+  --color-brown-100: var(--brown-100);
+  --color-brown-200: var(--brown-200);
+  --color-brown-300: var(--brown-300);
+  --color-brown-400: var(--brown-400);
+  --color-brown-500: var(--brown-500);
+  --color-brown-600: var(--brown-600);
+  --color-brown-700: var(--brown-700);
+  --color-brown-800: var(--brown-800);
+  --color-brown-900: var(--brown-900);
+  --color-brown-950: var(--brown-950);
+}
+
+@layer base {
+  body {
+    @apply bg-brown-100 text-brown-900;
+  }
+}
+
+@utility flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
