@@ -2,11 +2,13 @@
   "name": "cafex",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "biome check",
+    "lint": "biome lint",
+    "lint:check": "biome check",
     "format": "biome format --write"
   },
   "dependencies": {
