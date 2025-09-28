@@ -1,0 +1,42 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.suggest.enabled": true,
+  "javascript.suggest.enabled": true,
+  "typescript.validate.enable": true,
+  "javascript.validate.enable": true,
+  "typescript.suggest.autoImports": true,
+  "javascript.suggest.autoImports": true,
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "editor.defaultFormatter": "biomejs.biome",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "path-intellisense.mappings": {
+    "@": "${workspaceRoot}"
+  },
+  "typescript.preferences.includePackageJsonAutoImports": "on",
+  "explorer.compactFolders": false,
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(((?:[^()]|\\([^()]*\\))*)\\)", "[\"'`]?([^\"'`]+)[\"'`]?"],
+    ["cn\\(((?:[^()]|\\([^()]*\\))*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+  "tailwindCSS.classFunctions": ["cva", "cn"]
+}
