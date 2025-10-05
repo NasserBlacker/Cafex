@@ -1,5 +1,5 @@
+import "@/styles/globals.css";
 import type { Metadata } from "next";
-import "./globals.css";
 
 const { SITE_NAME } = process.env;
 
