@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@upstash/search':
+        specifier: ^0.1.5
+        version: 0.1.5
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -406,6 +409,12 @@ packages:
 
   '@types/react@19.1.15':
     resolution: {integrity: sha512-+kLxJpaJzXybyDyFXYADyP1cznTO8HSuBpenGlnKOAkH4hyNINiywvXS/tGJhsrGGP/gM185RA3xpjY0Yg4erA==}
+
+  '@upstash/search@0.1.5':
+    resolution: {integrity: sha512-+vkNsxC6jRP1m1HZdnJx7MD8KqvKHlqZjZ+eJMhgnTNXIYoqeY63WBorHY8M3nN7Buhns+eRl1YUTRwnZuiwgQ==}
+
+  '@upstash/vector@1.2.2':
+    resolution: {integrity: sha512-ptQ9xnxtKqmpNK52PCcHCszlPOLxIBfjsv7ty8RoF95pkjctS9rSjTQ3Pl9bx5VFbpDj+0dMXw88WLt6swDkgQ==}
 
   caniuse-lite@1.0.30001745:
     resolution: {integrity: sha512-ywt6i8FzvdgrrrGbr1jZVObnVv6adj+0if2/omv9cmR2oiZs30zL4DIyaptKcbOrBdOIc74QTMoJvSE2QHh5UQ==}
@@ -887,6 +896,12 @@ snapshots:
   '@types/react@19.1.15':
     dependencies:
       csstype: 3.1.3
+
+  '@upstash/search@0.1.5':
+    dependencies:
+      '@upstash/vector': 1.2.2
+
+  '@upstash/vector@1.2.2': {}
 
   caniuse-lite@1.0.30001745: {}
 
