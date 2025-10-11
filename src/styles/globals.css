@@ -29,11 +29,6 @@
 }
 
 @layer base {
-  *,
-  *::before,
-  *::after {
-    @apply outline-brown-900 outline-2;
-  }
   body {
     @apply bg-brown-100 text-brown-900;
   }
