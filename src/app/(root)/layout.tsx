@@ -8,7 +8,7 @@ export default function Layout({
   return (
     <>
       <Navbar />
-      <main className="flex-1 overflow-y-auto">{children}</main>
+      <main className="pt-16">{children}</main>
     </>
   );
 }

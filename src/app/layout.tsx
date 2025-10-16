@@ -20,9 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" dir="ltr">
-      <body className={`antialiased`}>
-        <div className="w-full h-screen flex flex-col">{children}</div>
-      </body>
+      <body className={`antialiased`}>{children}</body>
     </html>
   );
 }
